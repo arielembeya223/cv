@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Colonne gauche - 28% de largeur comme sur l'image */
+.left-column {
+    width: 28%;
+    background-color: #f2f2f2; /* Gris clair exact */
+    padding: 25px 15px;
+}
+
+/* Colonne droite - 72% de largeur */
+.right-column {
+    width: 72%;
+    padding: 25px 30px;
+}
+
+/* Photo profil */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 25px;
+    border: 3px solid white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #000;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 25px 0 15px;
+    color: #000;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 20px 0 10px;
+    color: #000;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.contact-info p {
+    margin-bottom: 12px;
+}
+
+.job {
+    margin-bottom: 22px;
+}
+
+.job-title {
+    font-weight: bold;
+    display: block;
+}
+
+.company {
+    font-style: italic;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.two-columns {
+    display: flex;
+    margin-top: 10px;
+}
+
+.column {
+    flex: 1;
+}
+
+strong {
+    font-weight: bold;
+}
