@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christopher Morgan - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            color: #333;
+            line-height: 1.5;
+        }
+        
+        /* Colonne gauche - 28% de largeur comme sur l'image */
+        .left-column {
+            width: 28%;
+            background-color: #f2f2f2; /* Gris clair exact */
+            padding: 25px 15px;
+        }
+        
+        /* Colonne droite - 72% de largeur */
+        .right-column {
+            width: 72%;
+            padding: 25px 30px;
+        }
+        
+        /* Photo profil */
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 25px;
+            border: 3px solid white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 22px;
+            text-align: center;
+            margin-bottom: 25px;
+            color: #000;
+        }
+        
+        h2 {
+            font-size: 18px;
+            margin: 25px 0 15px;
+            color: #000;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        h3 {
+            font-size: 16px;
+            margin: 20px 0 10px;
+            color: #000;
+        }
+        
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #ddd;
+            margin: 20px 0;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+        
+        p {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        
+        .contact-info p {
+            margin-bottom: 12px;
+        }
+        
+        .job {
+            margin-bottom: 22px;
+        }
+        
+        .job-title {
+            font-weight: bold;
+            display: block;
+        }
+        
+        .company {
+            font-style: italic;
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        .two-columns {
+            display: flex;
+            margin-top: 10px;
+        }
+        
+        .column {
+            flex: 1;
+        }
+        
+        strong {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Colonne gauche grise (28%) -->
+    <div class="left-column">
+        <!-- Photo de profil (remplacer par votre image) -->
+        <img src="profile.jpg" alt="Photo Christopher Morgan" class="profile-img">
+        
+        <h1>Christopher Morgan</h1>
+        
+        <hr>
+        
+        <h3>Contact</h3>
+        <div class="contact-info">
+            <p><strong>Address:</strong><br>
+            177 Great Portland Street, London<br>
+            WSW 6PQ</p>
+            
+            <p><strong>Phone:</strong><br>
+            +44 (0)20 7666 8555</p>
+            
+            <p><strong>Email:</strong><br>
+            christoper.m@gmail.com</p>
+            
+            <p><strong>LinkedIn:</strong><br>
+            linkedin.com/christopher.morgan</p>
+        </div>
+        
+        <hr>
+        
+        <h3>Languages</h3>
+        <ul>
+            <li>Spanish – C2</li>
+            <li>Chinese – A1</li>
+            <li>German – A2</li>
+        </ul>
+        
+        <hr>
+        
+        <h3>Hobbies</h3>
+        <ul>
+            <li>Writing</li>
+            <li>Sketching</li>
+            <li>Photography</li>
+            <li>Design</li>
+        </ul>
+    </div>
+    
+    <!-- Colonne droite blanche (72%) -->
+    <div class="right-column">
+        <h2>Summary</h2>
+        <p>Senior Web Developer specializing in front end development. Experienced with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages including HTML5, PHP OOP, JavaScript, CSS, MySQL. Strong background in project management and customer relations.</p>
+        
+        <h2>Skill Highlights</h2>
+        <div class="two-columns">
+            <div class="column">
+                <ul>
+                    <li>Project management</li>
+                    <li>Strong decision maker</li>
+                    <li>Complex problem solver</li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li>Creative design</li>
+                    <li>Innovative</li>
+                    <li>Service-focused</li>
+                </ul>
+            </div>
+        </div>
+        
+        <h2>Experience</h2>
+        <div class="job">
+            <span class="job-title">Web Developer - 09/2015 to 05/2019</span>
+            <span class="company">Luna Web Design, New York</span>
+            <ul>
+                <li>Cooperate with designers to create clean interfaces and simple, intuitive interactions and experiences.</li>
+                <li>Develop project concepts and maintain optimal workflow.</li>
+                <li>Work with senior developer to manage large, complex designs projects for corporate clients.</li>
+                <li>Complete detailed programming and development tasks for front end public and internal websites as well as challenging back-end server code.</li>
+                <li>Carry out quality assurance tests to discover errors and optimize usability.</li>
+            </ul>
+        </div>
+        
+        <h2>Education</h2>
+        <p>Bachelor of Science: <strong>Computer Information Systems - 2014</strong><br>
+        <strong>Columbia University, NY</strong></p>
+        
+        <h2>Certifications</h2>
+        <p><strong>PHP Framework (certificate): Zend, Codeigniter, Symfony.</strong><br>
+        Programming Languages: <strong>JavaScript, HTML5, PHP OOP, CSS, SQL, MySQL.</strong></p>
+    </div>
+</body>
+</html>
